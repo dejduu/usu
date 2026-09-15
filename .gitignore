@@ -1,0 +1,14 @@
+# Do repozitáře patří jen samotný notebook.
+# Nejdřív ignoruju úplně všechno...
+*
+
+# ...a pak zpátky pouštím jen to, co se má na GitHub dostat.
+!.gitignore
+!sencisin_emoce.ipynb
+
+# Pro pořádek, co se tímhle vyřazuje (a proč to tam nemá co dělat):
+#   features.npz   – 114 MB cache příznaků, generuje ji notebook sám
+#   .venv312/      – virtuální prostředí, závislé na konkrétním PC
+#   .vscode/, .claude/ – lokální nastavení editoru
+#   requirements.txt   – pokud ho tam chceš, smaž # na dalším řádku
+# !requirements.txt
